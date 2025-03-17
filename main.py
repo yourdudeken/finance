@@ -16,7 +16,6 @@ if not mt5.initialize():
 INITIAL_BALANCE = 5000  # Example balance (replace with actual balance)
 MAX_DRAWDOWN_OVERALL = 0.20  # 20% overall max drawdown
 MAX_DRAWDOWN_DAILY = 0.05  # 5% daily max drawdown
-
 # Function to get account balance from MetaTrader 5
 def get_mt5_balance():
     account_info = mt5.account_info()
